@@ -126,7 +126,7 @@ for k in range(len(output_truth)):
 for w in range(len(output_truth)):
     if output_truth[w,2] <= 45:
         output_truth[w,2] = 0
-    elif output_truth[w,2] > 45 and output_truth[k,1] <= 60:
+    elif output_truth[w,2] > 45 and output_truth[w,2] <= 60:
         output_truth[w,2] = 1
     elif output_truth[w,2] > 60:
         output_truth[w,2] = 2
@@ -227,7 +227,7 @@ for k in range(len(output_test)):
 for w in range(len(output_test)):
     if output_test[w,2] <= 45:
         output_test[w,2] = 0
-    elif output_test[w,2] > 45 and output_test[k,1] <= 60:
+    elif output_test[w,2] > 45 and output_test[w,2] <= 60:
         output_test[w,2] = 1
     elif output_test[w,2] > 60:
         output_test[w,2] = 2
