@@ -1,6 +1,6 @@
 # Perovskite-PV-Modeling
 
-These are the demo codes for paper  "**Predicting Organic-Inorganic Halide Perovskite Photovoltaic Performance from Optical Properties of Constituent Films through Machine Learning**“. Note that this is the version during review, more materials will be uploaded officially out.
+These are the demo codes for paper  "**Machine Learning Prediction of Organic-Inorganic Halide Perovskite Solar Cell Performance from Optical Properties**“. Note that this is the version during review, more materials will be uploaded officially out.
 
 NN_Prediction.py is the file that runs the demo code video attached to the paper which contains the main Neural Network model.
 
